@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Roman Numbers Game - Convert Roman numerals to numbers and test your skills.">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="color-scheme" content="dark">
+  <title>Roman Numbers Game</title>
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">Roman Numbers</h1>
+    <p class="number" id="number"></p>
+    <input type="text" class="answer-input" id="answerInput" placeholder="Enter your answer here">
+    <div class="btns-container">
+      <button class="btn submit-btn" id="submit">Submit</button>
+      <button class="btn reset-btn" id="reset">Reset</button>
+    </div>
+    <p class="score">Score: <span id="score"></span></p>
+  </main>
+  
+  <div class="confirm-overlay" id="confirmOverlay" dir="ltr">
+    <div class="confirm-box">
+      <p class="p1">Are you sure you want to reset?</p>
+      <p class="p2">Note: All scores and mistakes will be deleted and cannot be restored!</p>
+      <button class="confirm-button confirm-yes" id="confirmYes">Yes</button>
+      <button class="confirm-button confirm-no" id="confirmNo">Cancel</button>
+    </div>
+  </div>
+  
+  <script src="assets/scripts/script.js"></script>
+</body>
+</html>
